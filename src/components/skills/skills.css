@@ -1,0 +1,31 @@
+.skills{
+    margin: auto;
+    /* margin-bottom: 50px; */
+}
+
+.parallax_6 {
+    background-image: url('https://wallpapersprinted.com/download/2/think_twice_code_once-wallpaper-2560x1440.jpg');
+    /* height: 100vh;  */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: skewY(-5deg);  */
+  }
+
+.skills_details > h1{
+    text-align: center;
+    padding: 50px 0px;
+    color: white;
+}
+
+.skills_details{
+    max-width: 1300px;
+    margin: auto;
+    /* transform: skewY( 5deg);  */
+}
+
+.skills_progress{
+    display: flex;
+    flex-wrap: wrap;
+}

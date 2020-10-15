@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:400,400italic,500,500italic);
+
+@keyframes wiggle {
+    0% { -webkit-transform: skewX(24deg); } 
+    10% { -webkit-transform: skewX(-8deg); }
+    20% { -webkit-transform: skewX(55deg); }
+    30% { -webkit-transform: skewX(-90deg); }
+    40% { -webkit-transform: skewX(29deg); }
+    50% { -webkit-transform: skewX(-90deg); }
+    60% { -webkit-transform: skewX(3deg); }
+    70% { -webkit-transform: skewX(-2deg); }
+    80% { -webkit-transform: skewX(1deg); }
+    90% { -webkit-transform: skewX(10deg); }
+    100% { -webkit-transform: skewX(0deg); }
+}
+
+
+.parallax_1 {
+    /* background-color: whitesmoke;  */
+    background-image: url('../IMG_20191123_012942.jpg') ;
+   
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro_all{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    
+}
+
+.intro_devloper{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.intro_card{
+    background-image: url('../IMG_20200506_171049.jpg') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin: auto;
+    width: 80% !important;
+    height: 550px !important;
+    background-color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 4px 6px 6px 4px rgba(39, 1, 1, 0.8) !important;
+    object-fit: contain;
+
+}
+
+.intro_section1{
+    margin-left: 50px;
+}
+
+.intro_scroll{
+    height: 8vh;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.intro_icons{
+    padding-top: 20px;
+    padding-left: 10px; 
+}
+
+.intro_solid{
+    width: 80%;
+    align-self: center;
+    border-top: 2px solid #bbb;
+}
+.intro_h1:hover {
+    animation: wiggle 0.4s;
+  }
+
+
+.intro_h1 > span {
+    position:relative;
+    font-family:'Abril Fatface';
+    font-weight:normal;
+    font-size:1em;
+    text-align:center;
+    cursor:pointer;
+    color:rgba(133, 67, 67, 0.95);
+    text-shadow:1px 1px rgba(246, 0, 153,0.8),
+               -1px -1px rgba(15, 210, 255,0.8),
+               -1px 0px rgba(255, 210, 0, 1);
+}
+  
+.intro_h1 > span:hover {
+    animation: wiggle 0.2s 2;
+    transition:all ease-out 0.1s;
+    text-shadow:4px 4px rgba(246, 0, 153,0.8),
+               -8px -2px rgba(15, 210, 255,0.8),
+               -2px -2px rgba(255, 210, 0, 1);
+}
+  
+  
+  

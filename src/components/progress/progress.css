@@ -1,0 +1,60 @@
+.progress1{
+    background-color: transparent;
+    width: 340px;
+    height: 200px;
+    margin: auto;
+    perspective: 1000px;
+    margin-bottom: 40px;
+}
+
+.progress_card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.progress1:hover .progress_card {
+    transform: rotateX(180deg);
+  }
+
+.progress_contentflip-box-front, .progress_contentflip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+.progress_contentflip-box-front {
+    padding-top: 25px;
+    background-color: white;
+    color: black;
+    margin: auto;
+  }
+  
+.progress_contentflip-box-back {
+    padding: 30px;
+    background-color: whitesmoke;
+    color: black;
+    transform: rotateX(180deg);
+  }  
+
+  .progress_title{
+      margin-bottom: 30px;
+      font-weight: 800;
+      font-size: 40px;
+  }
+
+.progress_image{
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.progress_projects{
+    padding-top: 10px;
+    font-weight: 700;
+}

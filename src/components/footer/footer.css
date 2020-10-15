@@ -1,0 +1,29 @@
+.footer{
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 80px;
+    background: rgb(54, 53, 53);
+    color: white;
+    /* justify-content: space-between; */
+}
+
+.footer_icons{
+    /* padding-left: 10px; */
+    margin: auto;
+}
+
+.footer_gli{
+    /* margin-left: 20px */
+}
+
+.footer_hr{
+    border: 1px solid white;
+    margin: 8px;
+    /* color:white; */
+}
+
+.footer_span{
+    padding-top: -20px;
+}

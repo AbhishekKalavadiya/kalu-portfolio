@@ -1,0 +1,33 @@
+.button_button{
+    height: 40px !important;
+    width: 120px !important;
+    margin: 20px !important;
+    background-color: lightgray !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.4) !important;
+}
+
+.button_button:hover{
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.6) !important;
+
+}
+
+.button_img{
+    height: auto;
+    width: 120px;
+    object-fit: contain;
+}
+
+.button_website{
+    height: 40px !important;
+    font-weight: 600;
+    background-color: #ff414d !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.4) !important;
+}
+.button_website:hover{
+    color: white !important;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.6) !important;
+}
+
+.button_website:hover{
+    color: black !important;
+}
